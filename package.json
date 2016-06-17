@@ -1,0 +1,12 @@
+{
+  "name": "pstat",
+  "version": "1.0.0",
+  "description": "Check if file or directory exists",
+  "main": "index.js",
+  "repository": { "type": "git", "url": "https://github.com/jmjuanes/pstat.git" },
+  "keywords": [ "stat", "file", "directory", "exists" ],
+  "author": "Josemi Juanes <josemijuanes@gmail.com>",
+  "homepage": "https://github.com/jmjuanes/pstat",
+  "license": "MIT",
+  "dependencies": { }
+}
