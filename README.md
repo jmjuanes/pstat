@@ -27,10 +27,10 @@ var pStat = require('pstat');
 Asynchronously check if path exists and is a file. The callback is passed with `true` if path exists and is a file or `false` if not. Example:
 
 ```javascript
-pStat.isFile('./folder/file.txt', function(is){
+pStat.isFile('./folder/file.txt', function(is_file){
 
 	//Check if is file
-	if(is === true)
+	if(is_file === true)
 	{
 		//Is file and exists
 	}
@@ -51,10 +51,10 @@ Synchronous version of `pStat.isFile`. Returns `true` if path exists and is a fi
 Asynchronously check if path exists and is a directory. The callback is passed with `true` if path exists and is a directory or `false` if not. Example:
 
 ```javascript
-pStat.isDir('./your/folder', function(is){
+pStat.isDir('./your/folder', function(is_dir){
 
 	//Check if is file
-	if(is === true)
+	if(is_dir === true)
 	{
 		//Is file and exists
 	}
